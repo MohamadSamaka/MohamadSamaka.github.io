@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/styles/base.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <title>Mohamad Samaka</title>
+</head>
+<body>
+    <div id="root" class="container initial-max-width">
+        <header class="main-header">
+            <nav class="main-navbar navbar fixed-top navbar-expand-lg navbar-dark">
+                <div class="container initial-max-width">
+                    <a id="logo" class="navbar-brand position-relative" href="#home">
+                        <span>
+                            Mohamad
+                        </span>
+                        <span>
+                            Samaka
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about-me">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="main-site-block">
+               <div class="intro-wrapper d-flex row-gap-2">
+                <section class="left-side">
+                    <div class="row welcoming">
+                        Hi, I'm Mohamad
+                    </div>
+                    <div class="row welcoming-content">
+                        Expert on problem solving, Based in Israel i'm a computer science student at AAUP, hey, are you looking to change the world let's do it together.
+                    </div>
+                    <a class="contact-btn d-block text-decoration-none mt-5" href="#contact">Contact Me</a>
+                </section>
+                <section class="right-side">
+                    <div class="bubble-wrapper">
+                        <div class="img-bubble-combo">
+                            <img src="src/media/happy-developer.png" alt="">
+                            <span class="bubble"></span>
+                        </div>
+                        <span class="bubble"></span>
+                        <span class="bubble"></span>
+                        <span class="bubble"></span>
+                    </div>
+                </section>
+               </div>
+            </section>
+            <section id="projects" class="main-site-block">
+                <div class="text-center">
+                    <span class="title-ball">Projects</span>
+                </div>
+                <div class="projects-container d-flex flex-wrap justify-content-center">
+                    <div class="projects-centerlizer d-flex flex-wrap">
+                    </div>
+                </div>
+                <div class="text-center see-more-btn position-relative">
+                    <a href="https://github.com/thexjoker71/" target="_blank" class="see-more text-decoration-none">See More</a>
+                </div>
+            </section>
+            <section id="about-me" class="main-site-block container pt-3">
+                <div class="d-flex flex-wrap justify-content-between">
+                    <section class="left-side actual-content-wrapper">
+                        <section class="inner-section">
+                            <h1 class="title-ball">About Me</h1>
+                            <span class="name d-block">Mohamad Samaka</span>
+                            <span class="role d-block">Programmer</span>
+                            <p class="description text-justify">I'm a very driven student who enjoys learning something new every day. I've created several personal projects on GitHub out of curiosity and to learn and grow myself, in fields ranging from web programming to artificial intelligence, etc. <b>"Don't give me fish, teach me to fish"</b> is my catchphrase.</p>
+                        </section>
+                        <section class="inner-section">
+                            <h1 class="title-ball">Education</h1>
+                            <span class="degree d-block">Bachelor of computer science</span>
+                            <span class="row university-info">
+                                <div class="col">AAUP University</div>
+                                <div class="col">JULY 2019 - JULY 2023</div>
+                            </span>
+                        </section>
+                    </section>
+                    <section class="right-side actual-content-wrapper">
+                        <section class="inner-section programming-lanauges d-flex flex-column justify-content-center">
+                            <h1 class="title-ball">Skills</h1>
+                            <div class="pair-wrapper d-flex"></div>
+                        </section>
+                        <section class="inner-section">
+                            <h1 class="title-ball">Languages</h1>
+                            <div class="spoken-langauges">
+                                <ul class="languages-list list-unstyled d-flex flex-wrap row-gap-5"></ul>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </section>
+            <section id="contact" class="main-site-block container">
+                <div class="text-center">
+                    <span class="title-ball">Contact</span>
+                </div>
+                <div class="d-flex justify-content-center align-content-center">
+                    <div class="left-side">
+                        <div></div>
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center right-side">
+                        <form id="contact-form" action="">
+                            <div class="row">
+                                <input class="form-control col" type="text" name="fname" placeholder="First Name" required>
+                                <input class="form-control col" type="text" name="lname" placeholder="Last Name" required>
+                            </div>
+                            <div class="row flex-column justify-content-center">
+                                <input class="form-control col w-100" type="email" name="email" placeholder="Your Email" required>
+                                <textarea class="form-control" name="message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                                <input class="form-control align-self-center" name="submit-btn" type="submit" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="navigator-wrapper position-fixed d-flex flex-column">
+            <ul class="navbar-nav navigation-points">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact"></a>
+                </li>
+            </ul>
+        </section>
+        <footer id="footer" class="main-site-block position-relative">
+            <span class="text-center d-block">Copyright &copy 2022 Mohamed Samaka</span>
+        </footer>
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="d-flex">
+                    <div class="toast-body"></div>
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="src/js/js.js"></script>
+</body>
+</html>
